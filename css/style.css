@@ -1,0 +1,61 @@
+body {
+    padding-top: 5px;
+    background-color: burlywood;
+}
+h2#orderHere {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+h4.heading {
+    text-align: center;
+    font-weight: bold;
+}
+.header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0px
+}
+label.cb_label {
+    font-weight: normal;
+    margin: 0 0 5px 6px;
+    vertical-align: top;
+}
+div#hiddenbilling {
+    display: none;
+}
+.jumbotron {
+    background: url("../images/pizzaOven.jpg");  
+    background-size: cover;
+    padding-bottom: 10px;
+}
+.form-group, .col-md-4, .col-md-6, .col-md-8, .col-md-12, .pull-left {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div#extratoppings {
+    clear: both;
+}
+
+.col-md.12, .pizza-done {
+    text-align: center;
+    float: right;
+}
+
+.jumbotron h1, .jumbotron .lead {
+/*    position: absolute;    */
+    color: white; 
+/*    display: block;*/
+    background-color: rgba(192,192,192,0.6);
+}
+.jumbotron h1 {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    margin-top: 5px;
+}
+input#pizzaFinished {
+    width: 100%;
+    height: 35px;
+}
